@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap');
+
+body {
+  font-family: "Playwrite NZ basic", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  background-image: radial-gradient(
+    circle at center in hsl shorter hue,
+    #FFC5CB,
+    white
+  );
+  font-size: 18px;
+}
+
+table {
+  text-align: left;  
+  margin: 0 auto;
+  padding: 2%;
+  font-size: 24px;
+}
+
+td {
+    border-bottom: 1px solid grey;
+}
+
+th {
+  padding-right: 75px;  
+}
+
+.timetable {
+  background: rgb(255 255 255 / 50%);
+  margin: 0 auto;
+  width: 1200px;
+  box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 25%);
+  border-radius: 20px;
+  margin-bottom: 15%;
+}
+
+.finalist {
+    text-align: center;
+}
+
+.finalist table {
+    text-align: left;
+}
+
+#hsa9h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#673208, #db6c2b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#hsa10h1 {
+  font-size: 72px;
+  background: -webkit-radial-gradient(circle, #7d7d7d 0%, #555555 33%, #7d7d7d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#msah1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(0deg, #7D3E00 -7.62%, #FFC170 14.51%, #FFC170 84.95%, #7D3E00 106.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
